@@ -2,7 +2,7 @@
 Air Force Veteran | TS/SCI Cleared | M.S. Cybercrime Investigation  
 Transitioning into Identity & Access Management (IAM) / Identity Security
 ## About Me
-This repository documents my hands-on IAM labs, certification projects, and identity security learning as I transition into cybersecurity-focused IAM roles.
+IAM / Identity Security portfolio showcasing hands-on Okta, Entra ID, RBAC, access management, and identity governance labs.
 ## Current Focus
 - Okta Professional Certification
 - Microsoft Entra ID
