@@ -1,4 +1,7 @@
 # Lab 02: User Lifecycle & Profile Mapping
+![Okta Skill Badge](badge.png)
+
+🏅 Earned Okta Skill Badge: User Lifecycle & Profile Management
 
 ## Objective
 Practice Okta user lifecycle management, custom profile attributes, profile mappings, and reporting to strengthen hands-on IAM administration skills.
