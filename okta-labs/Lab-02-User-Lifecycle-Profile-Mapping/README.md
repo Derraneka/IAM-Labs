@@ -1,5 +1,5 @@
 # Lab 02: User Lifecycle & Profile Mapping
-![Okta Skill Badge](badge.png)
+<img src="./define-your-users-in-okta.png" alt="Okta Skill Badge" width="250"/>
 
 🏅 Earned Okta Skill Badge: User Lifecycle & Profile Management
 
