@@ -1,49 +1,63 @@
-# Lab-03: Organize Users With Groups
+# Lab 03: Organize Users With Groups
 
-## Overview
+🏅 Earned Okta Skill Badge: Organize Users With Groups
 
-Completed the Okta Workforce Identity Cloud skill badge: **Organize Users With Groups**.
+![Organize Users With Groups Badge](organize-users-with-groups.png)
 
-This lab focused on creating and managing groups, automating user assignments, assigning administrative roles, and using Okta Expression Language to dynamically manage access.
+## Objective
+
+Practice Okta group management, group rules, administrative role assignments, and Okta Expression Language to automate user access and strengthen Identity & Access Management (IAM) administration skills.
 
 ---
 
-## Skills Demonstrated
+## Skills Practiced
 
-- Group Creation
-- Manual Group Assignment
-- Dynamic Group Assignment
-- Group Rules
-- Group-Based Access Control (GBAC)
-- Administrative Role Assignment
+- Group creation and management
+- Manual group assignments
+- Dynamic group assignments
+- Group rule creation
+- Group-based access management
+- Administrative role assignments
 - Okta Expression Language
-- User Attribute Evaluation
+- User attribute evaluation
+- Group membership conditions
+- Access automation
+
+---
+
+## Lab Scenario
+
+In this lab, I worked through Okta administrative tasks focused on creating and managing groups, assigning users manually and dynamically, creating group rules, evaluating user attributes, and assigning administrative permissions through groups.
+
+---
+
+## Tasks Completed
+
+- Created and managed Okta groups
+- Assigned users to groups manually
+- Built dynamic group rules using user attributes
+- Evaluated group membership conditions
+- Used Okta Expression Language for advanced rules
+- Assigned administrative roles to groups
+- Automated user assignments based on attributes
+- Worked with internal user status values
+- Applied group-based access management concepts
 
 ---
 
 ## Key Concepts Learned
 
-### Manual Group Assignment
+### Manual vs Dynamic Group Assignment
 
-Best used for:
+Manual assignments are best suited for privileged or administrative groups where access should be tightly controlled.
 
-- Administrative groups
-- Privileged access groups
-- Special access requests
-
-### Dynamic Group Assignment
-
-Automates group membership based on:
-
-- User attributes
-- Existing group membership
-- Expression Language conditions
+Dynamic assignments automate membership based on user attributes and business rules.
 
 ---
 
-## Group Rule Examples
+### Group Rule Examples
 
-### Assign Non-Employees
+#### Assign Non-Employees
 
 ```text
 user.userType != "Employee"
@@ -53,9 +67,7 @@ Purpose:
 
 Assign Contractors and Partners to an External Users group.
 
----
-
-### Assign High Security Users
+#### Assign High Security Users
 
 ```text
 user.securityLevel >= 8
@@ -65,9 +77,7 @@ Purpose:
 
 Assign users with elevated security clearances to a High Security group.
 
----
-
-### Assign Suspended Users
+#### Assign Suspended Users
 
 ```text
 user.getInternalProperty("status") == "SUSPENDED"
@@ -77,9 +87,7 @@ Purpose:
 
 Automatically identify suspended accounts.
 
----
-
-### Assign Sales Department Users
+#### Assign Sales Department Users
 
 ```text
 user.department == "Sales"
@@ -106,12 +114,12 @@ Examples:
 
 ## Lessons Learned
 
-- Group rules reduce manual administrative effort.
-- String comparisons are case-sensitive.
-- Internal user statuses require `getInternalProperty("status")`.
-- Administrative access should be tightly controlled.
-- Group-based administration improves scalability.
-- Dynamic group membership supports automated access management.
+- Group rules reduce manual administration
+- Administrative roles can be assigned to groups
+- Group membership can be driven by user attributes
+- Internal user statuses require `getInternalProperty("status")`
+- String comparisons are case-sensitive
+- Group-based administration improves scalability and consistency
 
 ---
 
@@ -132,10 +140,17 @@ Topics Covered:
 
 ## Career Relevance
 
-This lab strengthened practical Identity and Access Management (IAM) skills related to:
+This lab strengthened practical Identity & Access Management (IAM) skills related to:
 
 - User Lifecycle Management
-- Access Governance
+- Group-Based Access Control (GBAC)
 - Role-Based Access Control (RBAC)
+- Access Governance
 - Identity Security
 - Okta Administration
+
+---
+
+## Key Takeaway
+
+This lab demonstrated how Okta groups can be used to automate access management, reduce administrative overhead, and support scalable Identity & Access Management (IAM) practices through dynamic group membership and role-based administration.
