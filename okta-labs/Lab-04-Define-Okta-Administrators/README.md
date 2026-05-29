@@ -1,4 +1,13 @@
-# Define Okta Administrators Skill Badge
+# Lab 04: Define Okta Administrators
+
+🏆 Earned Okta Skill Badge: Define Okta Administrators
+
+![Define Okta Administrators Badge](define-okta-administrators.png)
+
+**Skill Badge Verification:**  
+[View Credential](PASTE_YOUR_CREDLY_OR_OKTA_BADGE_URL_HERE)
+
+---
 
 ## Objective
 
@@ -16,7 +25,7 @@ Learn how to implement delegated administration in Okta using standard administr
 - Role-Based Access Control (RBAC)
 - Least Privilege Access
 - Access Governance
-- Administrative Governance
+- Administrative Auditing
 - Administrator Reporting
 - Group-Based Role Assignments
 
@@ -24,53 +33,41 @@ Learn how to implement delegated administration in Okta using standard administr
 
 ## Lab Scenario
 
-This skill badge focused on securing administrative access within an Okta organization through delegated administration. Activities included assigning standard administrator roles, creating custom administrator roles, configuring permission groups, defining resource sets, auditing administrator assignments, and applying least-privilege principles.
+In this lab, I explored how Okta administrators can securely delegate administrative responsibilities across an organization. Activities included assigning standard administrator roles, creating custom administrator roles, configuring resource sets, auditing administrator assignments, and applying least-privilege principles.
 
 ---
 
 ## Tasks Completed
 
-### 1. Assigned Standard Administrator Roles
+### Assigned Standard Administrator Roles
 
-- Reviewed available standard administrator roles
-- Evaluated role permissions and responsibilities
-- Assigned administrator roles based on business requirements
+- Reviewed standard administrator role permissions
+- Assigned roles based on business requirements
+- Evaluated role capabilities and limitations
 
-### 2. Created Custom Administrator Roles
+### Created Custom Administrator Roles
 
-- Configured custom roles using permission groups
-- Applied least-privilege principles
-- Aligned permissions with administrative job functions
+- Created custom administrator roles
+- Applied permission groups
+- Configured least-privilege access
 
-### 3. Configured Permission Groups
+### Configured Resource Sets
 
-- Examined available permission groups
-- Assigned permissions to custom administrator roles
-- Validated administrative capabilities
+- Assigned resources to delegated administrators
+- Restricted administrative scope
+- Validated access boundaries
 
-### 4. Created Resource Sets
+### Implemented Delegated Administration
 
-- Defined resource scopes for delegated administrators
-- Assigned resources including users, groups, and applications
-- Restricted administrative access to approved resources
+- Assigned administrator permissions
+- Applied resource sets
+- Verified delegated access controls
 
-### 5. Implemented Delegated Administration
+### Reviewed Administrative Governance
 
-- Assigned administrative responsibilities
-- Applied resource sets to limit access scope
-- Verified delegated permissions
-
-### 6. Reviewed Administrative Governance
-
-- Audited administrator assignments
-- Reviewed administrative reporting capabilities
-- Examined role assignment governance controls
-
-### 7. Applied Least Privilege Principles
-
-- Compared standard and custom administrator roles
-- Selected appropriate permissions based on business needs
-- Reduced excessive administrative access
+- Examined administrator assignments
+- Reviewed administrator reporting
+- Audited administrative privileges
 
 ---
 
@@ -80,25 +77,24 @@ Successfully completed:
 
 - Assign Standard Administrator Roles
 - Assign Custom Administrator Roles
-- Lab: Define Okta Administrators
-- Assessment: Define Okta Administrators
+- Define Okta Administrators Lab
+- Define Okta Administrators Assessment
 
-🏆 Earned the **Define Okta Administrators Skill Badge**
+🏆 Earned the Define Okta Administrators Skill Badge
 
 ---
 
 ## Key Takeaways
 
-- Standard administrator roles provide predefined permission sets.
-- Custom administrator roles allow organizations to tailor permissions to specific business requirements.
-- Permission groups contain the individual permissions used to build custom administrator roles.
-- Resource sets define which resources administrators can manage.
-- Delegated administration enables secure distribution of administrative responsibilities.
-- Least privilege reduces security risk by limiting access to only what is required.
-- Administrative reporting provides visibility into administrator assignments and governance activities.
+- Standard roles provide predefined administrative permissions.
+- Custom roles allow organizations to tailor access to business requirements.
+- Permission groups contain the individual permissions used by custom roles.
+- Resource sets define what administrators can manage.
+- Least privilege reduces risk by limiting unnecessary access.
+- Delegated administration improves operational efficiency while maintaining governance.
 
 ---
 
 ## Outcome
 
-Successfully completed the Define Okta Administrators Skill Badge and demonstrated proficiency in configuring standard administrator roles, custom administrator roles, permission groups, resource sets, delegated administration, and least-privilege access controls within Okta.
+Successfully demonstrated the ability to manage administrative access in Okta through standard roles, custom roles, permission groups, and resource sets while following least-privilege and identity governance best practices.
