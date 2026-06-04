@@ -2,20 +2,20 @@
 
 ## Overview / Objective
 
-This lab focused on customizing an Okta organization to align with company branding and administrative requirements. The objective was to become familiar with the Okta Admin Console while configuring organization settings that improve the user authentication experience.
+This lab focused on customizing an Okta organization to create a branded authentication experience for end users. The objective was to configure organization branding and validate that customizations were displayed consistently throughout the sign-in process and user dashboard.
 
 ## Skills Practiced
 
 - Identity and Access Management (IAM)
 - Okta Administration
-- Tenant Configuration
 - Organizational Branding
+- Tenant Configuration
 - User Experience Management
-- Administrative Configuration
+- Authentication Workflows
 
 ## Lab Scenario
 
-As an Okta Administrator, I was tasked with customizing an organization's Okta tenant to create a branded and professional sign-in experience for users. This included reviewing administrative settings and applying branding configurations within the Okta Admin Console.
+As an Okta Administrator, I was responsible for customizing an organization's Okta environment to reflect company branding. This included updating the sign-in experience and validating that branding changes were visible throughout the authentication process.
 
 ## Tasks Completed
 
@@ -27,7 +27,9 @@ As an Okta Administrator, I was tasked with customizing an organization's Okta t
 
 **Explanation**
 
-Configured the organization's sign-in page branding by applying a custom company logo and visual styling. This provides users with a familiar and trusted authentication experience.
+Configured the organization's sign-in page branding by applying a custom company logo and visual styling. This helps create a familiar and trusted authentication experience for users.
+
+---
 
 ### Step 2: Verified Authentication Branding
 
@@ -37,7 +39,9 @@ Configured the organization's sign-in page branding by applying a custom company
 
 **Explanation**
 
-Verified that branding elements remained consistent throughout the authentication process, including password verification screens.
+Validated that branding elements remained consistent throughout the authentication process, including the password verification page. This ensures a seamless user experience from sign-in to authentication.
+
+---
 
 ### Step 3: Validated End User Experience
 
@@ -47,68 +51,27 @@ Verified that branding elements remained consistent throughout the authenticatio
 
 **Explanation**
 
-Confirmed that branding changes were successfully applied after authentication and were visible throughout the user dashboard experience.
-
----
-
-### Step 2: Navigated to Customization Settings
-
-**Purpose:**  
-Located the branding and customization settings available within the Okta Admin Console.
-
-**Explanation:**  
-Organizations can customize various aspects of the sign-in experience to provide a consistent look and feel that aligns with company branding standards.
-
-**Screenshot:**  
-*Insert screenshot here*
----
-
-### Step 3: Updated Organization Branding
-
-**Purpose:**  
-Configured organization branding settings such as logos, colors, and visual elements.
-
-**Explanation:**  
-Branding helps create a professional user experience while increasing user trust during authentication and application access.
-### Step 3: Updated Organization Branding
-
-**Screenshot:**
-![Organization Branding](screenshots/lab01-step3-branding.png)
-
----
-
-### Step 4: Verified Configuration Changes
-
-**Purpose:**  
-Reviewed and validated that branding changes were successfully applied.
-
-**Explanation:**  
-Testing administrative changes ensures configurations are working correctly and provides quality assurance before production use.
-
-### Step 4: Verified Configuration Changes
-
-**Screenshot:**
-![Completed Branding](screenshots/lab01-step4-verification.png)
+Confirmed that branding changes were successfully applied after authentication and were visible within the Okta user dashboard. This verification ensured that users experience consistent branding across the platform.
 
 ---
 
 ## Key Concepts Learned
 
 - Okta Organization Management
-- Tenant Administration
-- Branding and Customization
-- Administrative Console Navigation
-- Identity Platform Configuration
-- User Experience Enhancement
+- Organizational Branding
+- Authentication Experience Customization
+- User Dashboard Configuration
+- Identity Platform Administration
+- End User Experience Validation
 
 ## Outcomes
 
 - Successfully customized an Okta organization.
-- Gained hands-on experience navigating the Okta Admin Console.
-- Learned how branding impacts user trust and adoption.
-- Developed foundational Okta administration skills.
-- Improved understanding of tenant-level configuration management.
+- Applied custom branding to the sign-in experience.
+- Verified branding consistency across authentication workflows.
+- Validated branding visibility within the user dashboard.
+- Gained hands-on experience with Okta administration and tenant customization.
 
 ## Business Value
 
-Customizing an Okta organization provides a consistent authentication experience, reinforces organizational branding, and improves user confidence when accessing company resources. These skills are valuable for IAM professionals responsible for identity platform administration and user experience management.
+Customizing an Okta organization improves user trust, reinforces company branding, and creates a consistent authentication experience. These administrative skills are valuable for Identity and Access Management (IAM) professionals responsible for managing enterprise identity platforms.
