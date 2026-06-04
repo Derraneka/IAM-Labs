@@ -19,18 +19,35 @@ As an Okta Administrator, I was tasked with customizing an organization's Okta t
 
 ## Tasks Completed
 
-### Step 1: Accessed the Okta Admin Console
+### Step 1: Customized the Okta Sign-In Page
 
-**Purpose:**  
-Logged into the Okta Admin Console to begin organization-level configuration.
+**Screenshot**
 
-**Explanation:**  
-The Admin Console serves as the central management interface for users, groups, applications, security policies, and branding settings within an Okta environment.
+![Customized Sign-In Page](screenshots/step1-customized-sign-in-page.png)
 
-### Step 1: Accessed the Okta Admin Console
+**Explanation**
 
-**Screenshot:**
-![Admin Console](screenshots/lab01-step1-admin-console.png)
+Configured the organization's sign-in page branding by applying a custom company logo and visual styling. This provides users with a familiar and trusted authentication experience.
+
+### Step 2: Verified Authentication Branding
+
+**Screenshot**
+
+![Password Verification Page](screenshots/step2-password-verification-page.png)
+
+**Explanation**
+
+Verified that branding elements remained consistent throughout the authentication process, including password verification screens.
+
+### Step 3: Validated End User Experience
+
+**Screenshot**
+
+![Branded User Dashboard](screenshots/step3-branded-user-dashboard.png)
+
+**Explanation**
+
+Confirmed that branding changes were successfully applied after authentication and were visible throughout the user dashboard experience.
 
 ---
 
@@ -42,11 +59,8 @@ Located the branding and customization settings available within the Okta Admin 
 **Explanation:**  
 Organizations can customize various aspects of the sign-in experience to provide a consistent look and feel that aligns with company branding standards.
 
-### Step 2: Navigated to Customization Settings
-
-**Screenshot:**
-![Customization Settings](screenshots/lab01-step2-customization-menu.png)
-
+**Screenshot:**  
+*Insert screenshot here*
 ---
 
 ### Step 3: Updated Organization Branding
