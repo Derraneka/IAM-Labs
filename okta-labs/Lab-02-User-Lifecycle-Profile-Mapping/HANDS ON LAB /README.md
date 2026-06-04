@@ -31,7 +31,9 @@ Add a custom attribute using the values below:
 | Variable name | region |
 | Description | Geographic region |
 
-![Custom Attribute](screenshots/custom-attribute-region.png)
+### Add Custom Region Attribute
+
+![Custom Region Attribute](screenshots/01-custom-region-attribute.png)
 
 ### Step 4
 
