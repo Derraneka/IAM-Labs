@@ -20,7 +20,14 @@ Configure Single Sign-On using the SAML 2.0 protocol.
 - Verified successful authentication
 
 ## Screenshots
-(Add screenshots here)
+### Create User
+![Create User](screenshots/lcm1.png)
+
+### Update User Profile
+![Update User Profile](screenshots/lcm2.png)
+
+### Reset Password
+![Reset Password](screenshots/lcm3.png)
 
 ## Key Takeaway
 This lab demonstrates federated authentication using SAML 2.0.
