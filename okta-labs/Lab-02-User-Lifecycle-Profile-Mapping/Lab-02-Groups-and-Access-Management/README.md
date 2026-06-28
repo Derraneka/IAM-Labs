@@ -55,10 +55,10 @@ Manage user access using groups and automated group membership rules.
 ### Verify Group Membership
 ![Verify Group Membership](screenshots/GM_11.png)
 
-### Confirm Automatic Group Assignment
+### Assign Group to App 
 ![Confirm Automatic Group Assignment](screenshots/GM_12.png)
 
-### Review Group Members
+### Assign group to app cont
 ![Review Group Members](screenshots/GM_13.png)
 
 ### Final Verification
