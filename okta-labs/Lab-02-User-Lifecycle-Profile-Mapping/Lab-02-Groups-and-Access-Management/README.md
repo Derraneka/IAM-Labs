@@ -25,7 +25,7 @@ Manage user access using groups and automated group membership rules.
 ### Create Group
 ![Create Group](screenshots/GM_1.png)
 
-### Configure Group Settings
+### Add one user manually
 ![Configure Group Settings](screenshots/GM_2.png)
 
 ### Verify Group Creation
@@ -34,22 +34,22 @@ Manage user access using groups and automated group membership rules.
 ### Create Group Rule
 ![Create Group Rule](screenshots/GM_4.png)
 
-### Configure Rule Conditions
+### Create group Rule cont
 ![Configure Rule Conditions](screenshots/GM_5.png)
 
-### Define User Profile Attributes
+### Configure Rule Conditions
 ![Define User Profile Attributes](screenshots/GM_6.png)
 
-### Save Group Rule
+### Activate Group Rule
 ![Save Group Rule](screenshots/GM_7.png)
 
-### Review Group Rule Configuration
+### Review user profile
 ![Review Group Rule Configuration](screenshots/GM_8.png)
 
-### Activate Group Rule
+### Add marketing group to user profile
 ![Activate Group Rule](screenshots/GM_9.png)
 
-### Manually Add User to Group
+### Make sure user was added to group by rule 
 ![Manually Add User to Group](screenshots/GM_10.png)
 
 ### Verify Group Membership
