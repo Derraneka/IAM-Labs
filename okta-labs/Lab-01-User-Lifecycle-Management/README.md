@@ -1,33 +1,50 @@
-# SAML Single Sign-On (SSO)
+# User Lifecycle Management
 
 ## Objective
-Configure Single Sign-On using the SAML 2.0 protocol.
+Manage the complete user lifecycle in Okta, including user creation, account management, and deprovisioning.
 
 ## Technologies Used
-- Okta
-- SAML 2.0
+- Okta Universal Directory
+- Okta Admin Console
 
 ## Skills Practiced
-- SAML
-- Federation
-- Single Sign-On
-- Enterprise Applications
+- User Provisioning
+- User Deprovisioning
+- Account Administration
+- Password Management
+- Universal Directory
 
 ## Tasks Completed
-- Created a SAML application
-- Configured SAML settings
-- Assigned users
-- Verified successful authentication
+- Created a new user
+- Updated user profile information
+- Reset user password
+- Unlocked user account
+- Suspended and reactivated the user
+- Deactivated the user account
 
 ## Screenshots
-### Create User
-![Create User](screenshots/lcm1.png)
+## Screenshots
 
-### Update User Profile
-![Update User Profile](screenshots/lcm2.png)
+### Create User
+![Create User](screenshots/lcm 1.png)
+
+### Edit User Profile
+![Edit User Profile](screenshots/lcm 2.png)
 
 ### Reset Password
-![Reset Password](screenshots/lcm3.png)
+![Reset Password](screenshots/lcm 3.png)
+
+### Unlock User Account
+![Unlock User Account](screenshots/lcm 4.png)
+
+### Suspend User
+![Suspend User](screenshots/lcm 5.png)
+
+### Reactivate User
+![Reactivate User](screenshots/lcm 6.png)
+
+### Deactivate User
+![Deactivate User](screenshots/lcm 7.png)
 
 ## Key Takeaway
-This lab demonstrates federated authentication using SAML 2.0.
+This lab demonstrates core Identity and Access Management (IAM) responsibilities related to managing user identities throughout the account lifecycle.
