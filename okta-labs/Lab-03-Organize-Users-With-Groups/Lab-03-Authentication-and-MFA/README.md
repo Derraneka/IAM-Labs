@@ -67,6 +67,11 @@ Configure authentication policies and strengthen account security using Multi-Fa
 
 ### Step 18: Configure Session Lifetime and Idle Timeout
 ![Step 18](screenshots/GM_18.png)
+### Step 20: Assign the Authentication Policy to the Org2Org Application
+![Step 20](screenshots/GM_20.png)
+
+### Step 21: Verify User Identity with Okta Verify
+![Step 21](screenshots/GM_21.png)
 
 ## Key Takeaway
 This lab demonstrates how strong authentication methods help protect user identities and reduce unauthorized access.****
