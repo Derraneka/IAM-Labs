@@ -1,28 +1,27 @@
-# Authentication and Multi-Factor Authentication (MFA)
+# SAML Single Sign-On (SSO)
 
 ## Objective
-Configure authentication policies and strengthen account security using Multi-Factor Authentication.
+Configure Single Sign-On using the SAML 2.0 protocol.
 
 ## Technologies Used
-- Okta Verify
-- Authentication Policies
-- Sign-On Policies
+- Okta
+- SAML 2.0
 
 ## Skills Practiced
-- MFA
-- Authentication
-- Access Policies
-- Identity Security
+- SAML
+- Federation
+- Single Sign-On
+- Enterprise Applications
 
 ## Tasks Completed
-- Configured authentication policies
-- Enabled Okta Verify
-- Tested MFA enrollment
-- Verified successful authentication
-- Reviewed sign-on policy behavior
+- Created a SAML application
+- Configured SAML settings
+- Configured attribute statements
+- Assigned users
+- Verified successful SSO authentication
 
 ## Screenshots
 (Add screenshots here)
 
 ## Key Takeaway
-This lab demonstrates how strong authentication methods help protect user identities and reduce unauthorized access.
+This lab demonstrates federated authentication using the SAML 2.0 protocol to provide secure Single Sign-On.
