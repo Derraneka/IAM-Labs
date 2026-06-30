@@ -88,350 +88,49 @@ Automatic Deprovisioning
 
 # Lab Walkthrough
 
----
+## Screenshots
 
-## Step 1 - Configure the Org2Org Application
+### Step 1 - Configure Org2Org Application
+![Step 1](images/step1.png)
 
-The Org2Org application was configured to establish trust between two Okta organizations.
+### Step 2 - Enable API Integration
+![Step 2](images/step2.png)
 
-**Screenshot**
+### Step 3 - Enable Provisioning
+![Step 3](images/step3.png)
 
-```
-Insert Screenshot 1
-```
+### Step 4 - Open Profile Editor
+![Step 4](images/step4.png)
 
----
+### Step 5 - Create Preferred Name Attribute
+![Step 5](images/step5.png)
 
-## Step 2 - Enable API Integration
+### Step 6 - Add Attribute to Org2Org Profile
+![Step 6](images/step6.png)
 
-API Integration was enabled using an Okta API Security Token.
+### Step 7 - Add Attribute to SAML IdP Profile
+![Step 7](images/step7.png)
 
-This allows SCIM provisioning features such as:
+### Step 8 - Configure Profile Mappings
+![Step 8](images/step8.png)
 
-- Create Users
-- Update User Attributes
-- Deactivate Users
+### Step 9 - Force Sync
+![Step 9](images/step9.png)
 
-**Screenshot**
+### Step 10 - Assign User
+![Step 10](images/step10.png)
 
-```
-Insert Screenshot 2
-```
+### Step 11 - Verify Provisioned User
+![Step 11](images/step11.png)
 
----
+### Step 12 - Verify Preferred Name Sync
+![Step 12](images/step12.png)
 
-## Step 3 - Enable Provisioning Features
+### Step 13 - Unassign User
+![Step 13](images/step13.png)
 
-Provisioning settings were configured to automate identity lifecycle operations.
-
-Enabled:
-
-- Create Users
-- Update User Attributes
-- Deactivate Users
-
-Password synchronization was intentionally left disabled.
-
-**Screenshot**
-
-```
-Insert Screenshot 3
-```
-
----
-
-## Step 4 - Open Profile Editor
-
-The Okta Universal Directory Profile Editor was opened to extend the user schema.
-
-**Screenshot**
-
-```
-Insert Screenshot 4
-```
-
----
-
-## Step 5 - Create a Custom User Attribute
-
-A custom attribute named:
-
-```
-preferredname
-```
-
-was added to the Okta User Profile.
-
-Attribute Details
-
-| Property | Value |
-|----------|-------|
-| Display Name | Preferred Name |
-| Variable Name | preferredname |
-| Data Type | String |
-
-**Screenshot**
-
-```
-Insert Screenshot 5
-```
-
----
-
-## Step 6 - Add the Attribute to the Org2Org Application Profile
-
-The custom attribute was added to the Org2Org application profile so it could participate in provisioning.
-
-**Screenshot**
-
-```
-Insert Screenshot 6
-```
-
----
-
-## Step 7 - Configure the Identity Provider Profile
-
-The SAML Identity Provider profile schema was updated to include the same custom attribute.
-
-This ensures the attribute exists across both identity stores.
-
-**Screenshot**
-
-```
-Insert Screenshot 7
-```
-
----
-
-## Step 8 - Configure Profile Mappings
-
-Profile mappings were updated to synchronize user attributes from the Okta User Profile to the Identity Provider.
-
-Mapped attributes included:
-
-- First Name
-- Last Name
-- Email
-- Mobile Phone
-- Department
-- Title
-- Preferred Name
-
-Mappings were configured to apply during:
-
-- User Creation
-- User Updates
-
-**Screenshot**
-
-```
-Insert Screenshot 8
-```
-
----
-
-## Step 9 - Force Synchronization
-
-A Force Sync operation was executed to immediately push updated mappings to the destination organization.
-
-**Screenshot**
-
-```
-Insert Screenshot 9
-```
-
----
-
-## Step 10 - Assign a User
-
-A user was assigned to the Org2Org application.
-
-Assignment automatically triggered SCIM provisioning.
-
-**Screenshot**
-
-```
-Insert Screenshot 10
-```
-
----
-
-## Step 11 - Verify User Creation
-
-The destination organization was inspected to verify the account had been successfully provisioned.
-
-Verification included:
-
-- User Account
-- Email Address
-- Active Status
-
-**Screenshot**
-
-```
-Insert Screenshot 11
-```
-
----
-
-## Step 12 - Verify Attribute Synchronization
-
-The destination user profile was reviewed.
-
-The following synchronized successfully:
-
-- Department
-- Title
-- Preferred Name
-
-The custom **preferredname** attribute correctly transferred between organizations.
-
-**Screenshot**
-
-## Step 1 - Configure the Org2Org Application
-
-The Org2Org application was created to establish trust between two Okta organizations.
-
-![Step 1 - Org2Org Application](images/step1-org2org-application.png)
-
----
-
-## Step 2 - Enable API Integration
-
-API Integration was enabled using an Okta API Token, allowing SCIM provisioning capabilities between organizations.
-
-![Step 2 - API Integration](images/step2-api-integration.png)
-
----
-
-## Step 3 - Enable Provisioning Features
-
-Provisioning settings were configured to automatically:
-
-- Create Users
-- Update User Attributes
-- Deactivate Users
-
-![Step 3 - Provisioning Settings](images/step3-provisioning-settings.png)
-
----
-
-## Step 4 - Open the Profile Editor
-
-The Okta Universal Directory Profile Editor was used to extend the user schema.
-
-![Step 4 - Profile Editor](images/step4-profile-editor.png)
-
----
-
-## Step 5 - Create a Custom User Attribute
-
-A custom attribute named **preferredname** was added to the Okta User profile.
-
-Attribute Details
-
-| Property | Value |
-|----------|-------|
-| Display Name | Preferred Name |
-| Variable Name | preferredname |
-| Data Type | String |
-
-![Step 5 - Add Custom Attribute](images/step5-add-custom-attribute.png)
-
----
-
-## Step 6 - Add the Attribute to the Org2Org Profile
-
-The custom attribute was added to the Org2Org application profile so it could be provisioned to the destination organization.
-
-![Step 6 - Org2Org Profile Attribute](images/step6-org2org-profile.png)
-
----
-
-## Step 7 - Configure the Identity Provider Profile
-
-The SAML Identity Provider profile schema was updated to include the **preferredname** attribute.
-
-![Step 7 - Identity Provider Attribute](images/step7-idp-profile.png)
-
----
-
-## Step 8 - Configure Profile Mappings
-
-Profile mappings were configured so the following attributes synchronize automatically:
-
-- First Name
-- Last Name
-- Email
-- Mobile Phone
-- Department
-- Title
-- Preferred Name
-
-Mappings were configured to apply during user creation and updates.
-
-![Step 8 - Profile Mapping](images/step8-profile-mapping.png)
-
----
-
-## Step 9 - Force Synchronization
-
-A Force Sync operation was performed to immediately push the updated profile mappings to the destination organization.
-
-![Step 9 - Force Sync](images/step9-force-sync.png)
-
----
-
-## Step 10 - Assign a User
-
-A user was assigned to the Org2Org application, triggering automatic SCIM provisioning.
-
-![Step 10 - User Assignment](images/step10-user-assignment.png)
-
----
-
-## Step 11 - Verify User Creation
-
-The destination Okta organization confirmed that the user account was successfully provisioned.
-
-Verification included:
-
-- User account
-- Email address
-- Active status
-
-![Step 11 - Provisioned User](images/step11-user-created.png)
-
----
-
-## Step 12 - Verify Attribute Synchronization
-
-The destination user's profile confirmed that custom and standard attributes synchronized successfully.
-
-Verified attributes included:
-
-- Department
-- Title
-- Preferred Name
-
-![Step 12 - Attribute Sync](images/step12-attribute-sync.png)
-
----
-
-## Step 13 - Deprovision the User
-
-The user was unassigned from the Org2Org application, automatically triggering SCIM deprovisioning.
-
-![Step 13 - User Unassignment](images/step13-unassign-user.png)
-
----
-
-## Step 14 - Verify Automatic Deactivation
-
-The destination organization confirmed that the user's account status changed from **Active** to **Deactivated**, demonstrating successful automated lifecycle management.
-
-![Step 14 - User Deactivated](images/step14-user-deactivated.png)
+### Step 14 - Verify User Deactivation
+![Step 14](images/step14.png)
 
 # Results
 
