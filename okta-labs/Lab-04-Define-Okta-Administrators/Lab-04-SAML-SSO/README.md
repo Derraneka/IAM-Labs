@@ -48,16 +48,13 @@ Configure Single Sign-On using the SAML 2.0 protocol.
 ### Step 9: Select Group
 ![Step 9](screenshots/sso_9.png)
 
-### Step 10: Configure Attribute Statements
-![Step 10](screenshots/sso_10.png)
-
-### Step 11: Launch the Application
+### Step 10: Launch the Application
 ![Step 11](screenshots/sso_11.png)
 
-### Step 12: Verify the SSO Redirect
+### Step 11: Verify the SSO Redirect
 ![Step 12](screenshots/sso_12.png)
 
-### Step 13: Confirm Successful Sign-On
+### Step 12: Confirm Successful Sign-On
 ![Step 13](screenshots/sso_13.png)
 ## Key Takeaway
 This lab demonstrates federated authentication using the SAML 2.0 protocol to provide secure Single Sign-On.
