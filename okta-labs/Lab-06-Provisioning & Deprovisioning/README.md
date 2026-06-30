@@ -90,49 +90,68 @@ Automatic Deprovisioning
 
 ## Screenshots
 
-### Step 1 - Configure Org2Org Application
-![Step 1](images/step1.png)
+## Screenshots
 
-### Step 2 - Enable API Integration
-![Step 2](images/step2.png)
+### Step 1 - Configure the Org2Org Application
+![Step 1](sm_1.png)
 
-### Step 3 - Enable Provisioning
-![Step 3](images/step3.png)
+### Step 2 - Create API Token
+![Step 2](sm_2.png)
+![Step 3](sm_3.png)
+![Step 4](sm_4.png)
+![Step 5](sm_5.png)
+![Step 6](sm_6.png)
 
-### Step 4 - Open Profile Editor
-![Step 4](images/step4.png)
+### Step 3 - Add the Org2Org Application
+![Step 7](sm_7.png)
+![Step 8](sm_8.png)
+![Step 9](sm_9.png)
+![Step 10](sm_10.png)
 
-### Step 5 - Create Preferred Name Attribute
-![Step 5](images/step5.png)
+### Step 4 - Configure the SAML Identity Provider
+![Step 11](sm_11.png)
+![Step 12](sm_12.1.png)
+![Step 13](sm_12.2.png)
+![Step 14](sm_12.3.png)
+![Step 15](sm_12.4.png)
+![Step 16](sm_12.5.png)
+![Step 17](sm_12.6.png)
 
-### Step 6 - Add Attribute to Org2Org Profile
-![Step 6](images/step6.png)
+### Step 5 - Configure API Provisioning
+![Step 18](sm_13.png)
+![Step 19](sm_14.png)
+![Step 20](sm_15.png)
+![Step 21](sm-16.png)
 
-### Step 7 - Add Attribute to SAML IdP Profile
-![Step 7](images/step7.png)
+### Step 6 - Enable Provisioning Features
+![Step 22](sm_17.png)
+![Step 23](sm_18.png)
+![Step 24](sm_19.png)
+![Step 25](sm_20.png)
 
-### Step 8 - Configure Profile Mappings
-![Step 8](images/step8.png)
+### Step 7 - Create the Custom Attribute
+![Step 26](sm_21.png)
+![Step 27](sm_22.png)
+![Step 28](sm_23.png)
 
-### Step 9 - Force Sync
-![Step 9](images/step9.png)
+### Step 8 - Configure Profile Editor
+![Step 29](sm_24.png)
+![Step 30](sm_25.png)
+![Step 31](sm_26.png)
+![Step 32](sm_27.png)
 
-### Step 10 - Assign User
-![Step 10](images/step10.png)
+### Step 9 - Configure Profile Mapping
+![Step 33](sm_28.png)
+![Step 34](sm_29.png)
+![Step 35](sm_30.png)
+![Step 36](sm_31.png)
 
-### Step 11 - Verify Provisioned User
-![Step 11](images/step11.png)
-
-### Step 12 - Verify Preferred Name Sync
-![Step 12](images/step12.png)
-
-### Step 13 - Unassign User
-![Step 13](images/step13.png)
-
-### Step 14 - Verify User Deactivation
-![Step 14](images/step14.png)
-
-# Results
+### Step 10 - Force Sync and Verify
+![Step 37](sm_32.png)
+![Step 38](sm_33.png)
+![Step 39](sm_34.png)
+![Step 40](sm_35.png)
+![Step 41](sm_36.png)
 
 Successfully demonstrated:
 
