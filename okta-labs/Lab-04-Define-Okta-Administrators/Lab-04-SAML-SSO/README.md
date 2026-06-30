@@ -39,6 +39,9 @@ Configure Single Sign-On using the SAML 2.0 protocol.
 ### Step 6: Select User
 ![Step 6](screenshots/sso_6.png)
 
+### Step 6.5: Select User
+![Step 6](screenshots/sso_6.5.png)
+
 ### Step 7: View Metadata
 ![Step 7](screenshots/sso_7.png)
 
