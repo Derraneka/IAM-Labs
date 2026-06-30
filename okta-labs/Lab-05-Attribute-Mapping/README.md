@@ -28,38 +28,40 @@ Configure custom user attributes and map identity data between Okta Universal Di
 
 ## Screenshots
 
+## Screenshots
+
 ### Step 1: Open Profile Editor
-![Step 1](am_1.png)
+![Step 1](screenshots/AM_1.png)
 
 ### Step 2: Create the PreferredName Custom Attribute
-![Step 2](am_2.png)
+![Step 2](screenshots/AM_2.png)
 
 ### Step 3: Verify the New Custom Attribute
-![Step 3](am_3.png)
+![Step 3](screenshots/AM_3.png)
 
 ### Step 4: Open the SAML Test Application User Profile
-![Step 4](am_4.png)
+![Step 4](screenshots/AM_4.png)
 
 ### Step 5: Create the PreferredName Application Attribute
-![Step 5](am_5.png)
+![Step 5](screenshots/AM_5.png)
 
 ### Step 6: Configure User Profile Mappings
-![Step 6](am_6.png)
+![Step 6](screenshots/AM_6.png)
 
 ### Step 7: Map PreferredName to the Application
-![Step 7](am_7.png)
+![Step 7](screenshots/AM_7.png)
 
 ### Step 8: Configure Mapping Behavior
-![Step 8](am_8.png)
+![Step 8](screenshots/AM_8.png)
 
 ### Step 9: Update the Okta User Profile
-![Step 9](am_9.png)
+![Step 9](screenshots/AM_9.png)
 
 ### Step 10: Enter the PreferredName Value
-![Step 10](am_10.png)
+![Step 10](screenshots/AM_10.png)
 
-### Step 11: Verify the Application Assignment
-![Step 11](am_11.png)
+### Step 11: Confirm PreferredName in App Assignment
+![Step 11](screenshots/AM_11.png)
 ## Key Takeaway
 
 This lab demonstrates how Okta Universal Directory manages identity data by creating custom profile attributes and synchronizing them with connected applications through Profile Editor mappings. Proper attribute mapping ensures identity information remains consistent across applications and supports automated provisioning workflows.
