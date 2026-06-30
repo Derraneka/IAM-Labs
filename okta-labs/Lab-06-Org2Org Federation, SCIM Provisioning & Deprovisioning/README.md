@@ -90,6 +90,8 @@ Automatic Deprovisioning
 
 ## Screenshots
 
+## Screenshots
+
 ### Step 1 - Configure the Org2Org Application
 ![Step 1](screenshots/sm_1.png)
 
