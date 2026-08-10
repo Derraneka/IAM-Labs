@@ -1,6 +1,10 @@
 # IAM / Identity Security Portfolio
-Air Force Veteran | TS/SCI Cleared | M.S. Cybercrime Investigation  
+
+Air Force Veteran | TS/SCI Cleared | M.S. Cybercrime Investigation
 Transitioning into Identity & Access Management (IAM) / Identity Security
+
+> **Companion repo:** [**entra-id-labs**](https://github.com/Derraneka/entra-id-labs) — the same identity problems solved on Microsoft Entra ID: Conditional Access, PIM, SAML SSO, entitlement management, and PowerShell + Graph API automation.
+
 ## About Me
 IAM / Identity Security portfolio showcasing hands-on Okta, Entra ID, RBAC, access management, and identity governance labs.
 ## Current Focus
